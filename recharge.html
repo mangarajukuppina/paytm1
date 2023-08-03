@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recharge</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .recharge{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="./rechargesuccess.html">
+        <div class="recharge">
+        <h1>Mobile Recharge</h1>
+        <label for="">Mobile No :</label>
+        <input type="number" name="number" placeholder="Enter Mobile number">
+        <br><br>
+        <label for="">Select :</label>
+        <input type="radio" name="recharge" id="pr" checked>
+        <label for="pr">Prepaid</label>
+        <input type="radio"  name="recharge" id="po" >
+        <label for="po">Postpaid</label>
+        <br><br>
+        <label for="Operator">Operator :</label>
+        <select name="" id="">
+            
+            <option value="">Airtel</option>
+            <option value="">Jio</option>
+            <option value="">Vi</option>
+            <option value="">BSNL</option>
+            <option value="select" selected>Select</option>
+        </select>
+        <br><br>
+        <label for="">Circle</label>
+        <select name="" id="">
+            <option value="" selected>Andra Pradesh</option>
+            <option value="">Telengana</option>
+        </select>
+        <br><br>
+        <label for="">Amount</label>
+        <input type="number" name="Amount">
+        <br><br>
+        <input type="submit" value="procced to Recharge">
+    </div>
+
+    </form>
+    
+</body>
+</html>
